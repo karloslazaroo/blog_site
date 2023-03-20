@@ -1,5 +1,6 @@
 
 .Navbar {
+    align-items: center;
     display: flex;
     background-color: #f0f0f0;
     flex: none;
@@ -14,7 +15,6 @@
 
 .appear{
     display: flex;
-    align-content: center;
     align-items: center;
     background: rgba(0,0,0,0.0);
     flex: none;
@@ -30,16 +30,16 @@
 .title {
     color: #000000;
     flex: none;
-    font-family: var(--s-font-19900105);
     font-size: 32px;
     font-weight: 700;
     height: auto;
     line-height: 1;
     text-align: left;
-    width: 33%;
-    max-width: 33%;
+    width: 41%;
+    max-width: 41%;
     justify-content: flex-start;
     text-decoration: none;
+    
 }
 
 .pages {
@@ -57,7 +57,7 @@
 
 .pages a{
     color: #000000;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 500;
     height: auto;
     line-height: 1.4;
@@ -67,4 +67,5 @@
     width: auto;
     max-width: calc(100% - 40px);
     justify-content: center;
+    text-decoration: none;
 }

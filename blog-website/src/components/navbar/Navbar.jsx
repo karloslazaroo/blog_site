@@ -9,9 +9,10 @@ const Navbar = () => {
            <a href='#' className='title'>Karlos Lazaro.</a>  
         
         <div className="pages">
-            <a>Home</a>
-            <a>Blogs</a>
-            <a>About Me</a>
+            <a href="#" >Home</a>
+
+            <a href="#" >Blogs</a>
+            <a href="#" >About Me</a>
         </div>
         </div>
     </div>
