@@ -56,6 +56,7 @@
 }
 
 .pages {
+    display: flex;
     align-content: center;
     align-items: center;
     background: #EEEEEE;
@@ -81,6 +82,11 @@
     max-width: calc(100% - 40px);
     justify-content: center;
     text-decoration: none;
+}
+
+.pages a:hover {
+    color:  #e09d37;
+    transition: .3s;
 }
 
 /* .socials {

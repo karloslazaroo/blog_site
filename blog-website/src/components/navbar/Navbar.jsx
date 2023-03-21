@@ -1,7 +1,6 @@
 import React from 'react'
 import './navbar.css'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faFacebookF, faInstagram, faLinkedinIn, faTwitter} from '@fortawesome/free-brands-svg-icons'
+
 
 const Navbar = () => {
   return (
