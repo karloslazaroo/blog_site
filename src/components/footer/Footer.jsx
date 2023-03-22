@@ -17,18 +17,18 @@ const Footer = () => {
             <div className="footer4">
                 <div className="footer5">
                     <h4>Company</h4>
-                    <a>Home page</a>
-                    <a>About us</a>
-                    <a>Blog</a>
-                    <a>Simple posts</a>
-                    <a>Shop</a>
+                    <a href='#'>Home page</a>
+                    <a href='#'>About us</a>
+                    <a href='#'>Blog</a>
+                    <a href='#'>Simple posts</a>
+                    <a href='#'>Shop</a>
                 </div>
                 <div className="footer6">
                     <h4>Categories</h4>
-                    <a>Home page</a>
-                    <a>About us</a>
-                    <a>Blog</a>
-                    <a>Simple posts</a>
+                    <a href='#'>Home page</a>
+                    <a href='#'>About us</a>
+                    <a href='#'>Blog</a>
+                    <a href='#'>Simple posts</a>
                 </div>
             </div>
         </div>
