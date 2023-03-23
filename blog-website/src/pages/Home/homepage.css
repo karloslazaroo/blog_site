@@ -8,7 +8,6 @@
     display: flex;
     align-content: center;
     align-items: center;
-    
     border-radius: 0px;
     flex: none;
     flex-direction: row;
@@ -195,6 +194,7 @@
 }
 
 #readmore {
+    display: flex;
     color: #000000;
     font-family: 'Playfair Display';
     font-size: 16px;
@@ -218,7 +218,17 @@
     padding: 0px;
 }
 
-.sample a:hover{
+
+#readlink a:hover{
+    color: #e09d37;
+}
+
+#readicon i:hover {
+    color: #e09d37;
+
+}
+
+#readmore p:hover {
     color: #e09d37;
 }
 

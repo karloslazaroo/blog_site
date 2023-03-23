@@ -48,8 +48,8 @@
     height: auto;
     line-height: 1;
     text-align: left;
-    width: 37%;
-    max-width: 37%;
+    width: 35%;
+    max-width: 35%;
     justify-content: flex-start;
     text-decoration: none;
     
@@ -65,8 +65,8 @@
     flex-wrap: nowrap;
     height: auto;
     justify-content: flex-start;
-    width: 55%;
-    max-width: 55%;
+    width: 50%;
+    max-width: 50%;
 }
 
 .pages a{
@@ -89,7 +89,8 @@
     transition: .3s;
 }
 
-/* .socials {
+.socials {
+    display: flex;
     align-content: center;
     align-items: center;
     background: rgba(0,0,0,0.0);
@@ -104,8 +105,14 @@
 }
 
 .socials i {
+    display: flex;
     color: #000000;
     font-size: 18px;
     margin: 0px 0px 0px 20px;
     transition-timing-function: ease-in-out;
-} */
+}
+
+.socials i:hover {
+    color:  #e09d37;
+    transition: .3s;
+}

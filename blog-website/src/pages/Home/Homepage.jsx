@@ -1,19 +1,16 @@
 import React from 'react'
 import './homepage.css'
-import Navbar from '../../components/navbar/Navbar'
-import Footer from '../../components/footer/Footer'
 import image from '../../assets/image.jpeg'
 import html from '../../assets/html.jpeg'
 import inventory from '../../assets/inventory.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCircleArrowRight} from '@fortawesome/free-solid-svg-icons'
+import MainLayout from '../../layout/MainLayout'
 
 const Homepage = () => {
   return (
-    
+    <MainLayout>
     <div className='body'>
-        < Navbar/>
-
         <div className="picture">
           <div className="image">
             <img src={image}></img>
@@ -34,11 +31,12 @@ const Homepage = () => {
               Nulla non augue vulputate, semper magna et, volutpat lacus. Cras commodo ipsum sed tincidunt lobortis. 
               Duis fringilla nisi eget nisi gravida consectetur. 
               Praesent in pulvinar orci, ac viverra massa. </p>
-              
+              <div className="readbutton">
               <a id='readlink' >
                 <p id='readmore'>Read more</p> <i id='readicon'> <FontAwesomeIcon icon={faCircleArrowRight}/></i>
               
               </a>
+              </div>
               </div>
 
               <div className="sample">
@@ -120,10 +118,11 @@ const Homepage = () => {
           </div>
         </div>
 
-       <Footer/>
+       
 
         
     </div>
+    </MainLayout>
   )
 }
 
