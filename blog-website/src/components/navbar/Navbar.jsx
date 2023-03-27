@@ -19,10 +19,10 @@ const Navbar = () => {
             <Link to='/aboutme'>About Me</Link>
         </div>
         <div className="socials">
-        <i><FontAwesomeIcon icon={faFacebookF} /></i>
-        <i><FontAwesomeIcon icon={faInstagram} /></i>
-        <i><FontAwesomeIcon icon={faLinkedinIn} /></i>
-        <i><FontAwesomeIcon icon={faTwitter} /></i>
+       <a href='https://www.facebook.com/karloslazaroo'><i><FontAwesomeIcon icon={faFacebookF} /></i></a>
+       <a href='https://www.instagram.com/karloslazaroo'><i><FontAwesomeIcon icon={faInstagram} /></i></a>
+       <a href='https://www.linkedin.com/in/karlos-lazaro-06ba29260/'><i><FontAwesomeIcon icon={faLinkedinIn} /></i></a>
+       <a href='https://www.twitter.com/karloslazaroo'><i><FontAwesomeIcon icon={faTwitter} /></i></a>
         
 
 

@@ -7,7 +7,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCircleArrowRight} from '@fortawesome/free-solid-svg-icons'
 import MainLayout from '../../layout/MainLayout'
 
-const Homepage = () => {
+function Homepage(){
   return (
     <MainLayout>
     <div className='body'>
